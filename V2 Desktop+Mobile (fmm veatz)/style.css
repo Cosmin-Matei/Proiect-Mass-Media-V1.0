@@ -3,13 +3,15 @@ margin:0px;
 padding: 0px;
 box-sizing: border-box;
 }
-html{
-    overflow-x: hidden;
-}
-body {
+html, body {
     background-image: url('assets/fundal.png');
     background-position: center;
     background-size: cover;
+    overflow-x: hidden;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    transform: translate3d(0,0,0);
   }
 nav {
     display: flex;
@@ -66,26 +68,29 @@ nav {
         justify-content: space-around;
         width:55%;
     }
-    html{
-        overflow-x: hidden;
-    }
-    body {
+    html, body {
         background-image: url('assets/fundal.png');
         background-position: center;
         background-size: cover;
+        overflow-x: hidden;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        transform: translate3d(0,0,0);
       }
 
 }
 @media screen and (max-width:768px){
-    html{
-        overflow-x: hidden;
-    }
-    body{
-        overflow-x: hidden;
-        background-image: url('assets/fundal.png'); 
+    html, body {
+        background-image: url('assets/fundal.png');
         background-position: center;
         background-size: cover;
-    }
+        overflow-x: hidden;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        transform: translate3d(0,0,0);
+      }
   .nav-link{
       position: absolute;
       right: 0px;
