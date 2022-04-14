@@ -21,7 +21,7 @@ html, body {
   .invelitoare {
     height: 200px;
     width: 300px;
-    background-color: #dfb0c7;
+    background-color: #edbcf1;
     position: relative;
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@ html, body {
   
   /* capac when opened */
   .capac.doi {
-    border-top: 100px solid #c937b1;
+    border-top: 100px solid #ffdcf9;
     transform: rotateX(90deg);
     z-index: 1;
     transition-delay: 0.5s;
@@ -89,19 +89,18 @@ html, body {
     color: #3B4049;
   }
   
-  .invelitoare:hover .capac.unu {
+  .toggle.capac.unu {
       transform: rotateX(90deg);
       transition-delay: 0s;
   }
   
-  .invelitoare:hover .capac.doi {
+  .toggle.capac.doi {
       transform: rotateX(180deg);
       transition-delay: 0.25s;
   }
   
-  .invelitoare:hover .invitatie {
+  .toggle.invitatie {
     transform: translateY(-150px);
     transition-delay: 0.5s;
   }
-
   
