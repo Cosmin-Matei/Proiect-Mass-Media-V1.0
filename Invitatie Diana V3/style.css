@@ -180,7 +180,7 @@ to{
 @keyframes marire {
 from{}
 to{    
-    transform: translateY(-400px);
+    transform: translateY(-380px);
     height:625px;
     width:350px;
 }
