@@ -142,7 +142,7 @@ html, body {
     animation: fade 0.5s 1.5s ease forwards;
 }
 .opac.invelitoare{
-    background-color: transparent;
+    animation: decenumerge 0.5s 1.5s ease forwards;
     box-shadow: none;
 }
 .opac.imagine{
@@ -183,6 +183,14 @@ to{
     transform: translateY(-380px);
     height:630px;
     width:350px;
+}
+
+}
+@keyframes decenumerge {
+from{}
+to{    
+    background-color: transparent;
+    box-shadow: none;
 }
 
 }
