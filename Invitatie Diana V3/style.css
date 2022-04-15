@@ -10,7 +10,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100%;
     width: 100%;
     transform: translate3d(0,0,0);
@@ -182,8 +182,8 @@ to{
 @keyframes marire {
 from{}
 to{    
-    transform: translateY(-380px);
-    height:630px;
+    transform: translateY(-350px);
+    height:620px;
     width:340px;
 }
 }
