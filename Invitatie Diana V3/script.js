@@ -5,12 +5,13 @@ function animatie() {
     const invitatie = document.querySelector('.invitatie');
     const invelitoare = document.querySelector('.invelitoare');
     const imagine = document.querySelector('.imagine');
-    const start = () => {
+    const text = document.querySelector('.text');
+    const data = document.querySelector('.data')
+        const start = () => {
         setTimeout(function() {
             confetti.start()
         }, 4500); 
     };
-    
     const stop = () => {
         setTimeout(function() {
             confetti.stop()
@@ -33,6 +34,10 @@ function animatie() {
             start();
             stop();
             invitatie.classList.toggle('marire');
+            text.classList.toggle('opac');
+            data.classList.toggle('opac');
+            
+
         });
 }
 
